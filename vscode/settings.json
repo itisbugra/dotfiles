@@ -15,6 +15,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 11,
+    "editor.lineNumbers": "off",
     "editor.links": false,
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
