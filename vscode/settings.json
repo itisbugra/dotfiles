@@ -1,0 +1,31 @@
+{
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnType": true
+    },
+    "breadcrumbs.enabled": false,
+    "cmake.configureOnOpen": false,
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 11,
+    "editor.links": false,
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.wordWrapColumn": 120,
+    "go.useLanguageServer": true,
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#f0f"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.showTabs": false,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.statusBar.visible": true
+}
