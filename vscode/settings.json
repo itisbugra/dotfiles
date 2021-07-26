@@ -1,0 +1,71 @@
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.glyphMargin": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.lineNumbers": "off",
+    "editor.links": false,
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "editor.wordWrap": "bounded",
+    "explorer.autoReveal": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": false,
+        "editorTab": false,
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scm": {
+            "authors": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": false,
+            "stash": true
+        }
+    },
+    "go.useLanguageServer": true,
+    "window.titleBarStyle": "native",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {
+        "editor.background": "#000",
+        "editorCursor.foreground": "#f0f",
+        "editorGutter.addedBackground": "#0000",
+        "editorGutter.deletedBackground": "#0000",
+        "editorGutter.modifiedBackground": "#0000",
+        "sideBar.background": "#000"
+    },
+    "workbench.colorTheme": "Hopscotch",
+    "workbench.editor.showTabs": false,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": false
+}
+
