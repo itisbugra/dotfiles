@@ -1,20 +1,105 @@
+{
+    "[csv]": {
+        "editor.wordWrap": "off"
+    },
+    "[elixir]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls",
+        "editor.formatOnType": true,
+        "editor.insertSpaces": true,
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.tabSize": 2,
+        "editor.trimAutoWhitespace": false,
+        "editor.wordBasedSuggestions": false,
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 120,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true
+    },
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnType": true,
+        "editor.useTabStops": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false,
+        "editor.wordWrap": "off",
+        "editor.wordWrapColumn": 100
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false,
+        "editor.wordWrap": "off",
+        "editor.wordWrapColumn": 100
+    },
+    "[python]": {
+        "editor.wordWrapColumn": 120
+    },
+    "[ruby]": {
+        "editor.wordWrap": "off"
+    },
+    "[typescript]": {
+        "editor.wordWrap": "off",
+        "editor.wordWrapColumn": 120
+    },
+    "[typescriptreact]": {
+        "editor.wordWrap": "off",
+        "editor.wordWrapColumn": 120
+    },
+    "breadcrumbs.enabled": false,
+    "cmake.configureOnOpen": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line",
+    "editor.folding": false,
+    "editor.foldingHighlight": false,
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 11,
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.formatOnType": true,
     "editor.glyphMargin": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.lineNumbers": "off",
+    "editor.lineHeight": 1.75,
     "editor.links": false,
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.tabSize": 2,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment.documentation",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
     "editor.useTabStops": false,
     "editor.wordWrap": "bounded",
+    "elixirLS.dialyzerEnabled": false,
     "explorer.autoReveal": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
+    "git.enableSmartCommit": true,
     "gitlens.menus": {
         "editor": {
             "blame": false,
@@ -51,9 +136,13 @@
         }
     },
     "go.useLanguageServer": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.showStartPage": false,
+    "redhat.telemetry.enabled": true,
     "window.titleBarStyle": "native",
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": false,
     "workbench.colorCustomizations": {
         "editor.background": "#000",
         "editorCursor.foreground": "#f0f",
@@ -65,7 +154,11 @@
     "workbench.colorTheme": "Hopscotch",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabSizing": "shrink",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": false
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false
 }
-
