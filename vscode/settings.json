@@ -1,7 +1,24 @@
 {
-    "[csv]": {
-        "editor.wordWrap": "off"
+    "[csharp]": {
+        "editor.acceptSuggestionOnCommitCharacter": true,
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.parameterHints.enabled": true,
+        "editor.quickSuggestions": {
+            "comments": false,
+            "other": true,
+            "strings": false
+        },
+        "editor.quickSuggestionsDelay": 10,
+        "editor.suggest.localityBonus": true,
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.tabCompletion": "off",
+        "editor.wordBasedSuggestions": true
     },
+    "[csv]": {},
     "[elixir]": {
         "editor.defaultFormatter": "JakeBecker.elixir-ls",
         "editor.formatOnType": true,
@@ -10,7 +27,6 @@
         "editor.tabSize": 2,
         "editor.trimAutoWhitespace": false,
         "editor.wordBasedSuggestions": false,
-        "editor.wordWrap": "on",
         "editor.wordWrapColumn": 120,
         "files.insertFinalNewline": true,
         "files.trimFinalNewlines": true,
@@ -31,9 +47,7 @@
         },
         "editor.formatOnPaste": false,
         "editor.formatOnSave": false,
-        "editor.formatOnType": false,
-        "editor.wordWrap": "off",
-        "editor.wordWrapColumn": 100
+        "editor.formatOnType": false
     },
     "[javascriptreact]": {
         "editor.codeActionsOnSave": {
@@ -41,49 +55,113 @@
         },
         "editor.formatOnPaste": false,
         "editor.formatOnSave": false,
-        "editor.formatOnType": false,
-        "editor.wordWrap": "off",
-        "editor.wordWrapColumn": 100
+        "editor.formatOnType": false
+    },
+    "[json]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.tabSize": 2
     },
     "[python]": {
-        "editor.wordWrapColumn": 120
+        "editor.formatOnType": true
     },
-    "[ruby]": {
-        "editor.wordWrap": "off"
-    },
-    "[typescript]": {
-        "editor.wordWrap": "off",
-        "editor.wordWrapColumn": 120
-    },
-    "[typescriptreact]": {
-        "editor.wordWrap": "off",
-        "editor.wordWrapColumn": 120
-    },
-    "breadcrumbs.enabled": false,
-    "cmake.configureOnOpen": false,
-    "editor.acceptSuggestionOnEnter": "off",
+    "[ruby]": {},
+    "[typescript]": {},
+    "[typescriptreact]": {},
+    "editor.acceptSuggestionOnEnter": "smart",
     "editor.comments.ignoreEmptyLines": false,
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "line",
     "editor.folding": false,
     "editor.foldingHighlight": false,
-    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontFamily": "Cascadia Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 11,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.formatOnType": true,
-    "editor.glyphMargin": false,
+    "editor.glyphMargin": true,
+    "editor.guides.indentation": false,
     "editor.hideCursorInOverviewRuler": true,
-    "editor.lineNumbers": "off",
     "editor.lineHeight": 1.75,
+    "editor.lineNumbers": "off",
     "editor.links": false,
     "editor.minimap.enabled": false,
-    "editor.renderIndentGuides": false,
     "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.vertical": "auto",
+    "editor.suggestSelection": "first",
     "editor.tabSize": 2,
     "editor.tokenColorCustomizations": {
+        "[Default High Contrast Light]": {
+            "textMateRules": [
+                {
+                    "scope": "comment.documentation",
+                    "settings": {
+                        "foreground": "#008000"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.attribute",
+                    "settings": {
+                        "foreground": "#282828"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.cdata",
+                    "settings": {
+                        "foreground": "#808080"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.delimiter",
+                    "settings": {
+                        "foreground": "#808080"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.name",
+                    "settings": {
+                        "foreground": "#808080"
+                    }
+                }
+            ]
+        },
+        "[Default High Contrast]": {
+            "textMateRules": [
+                {
+                    "scope": "comment.documentation",
+                    "settings": {
+                        "foreground": "#608B4E"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.attribute",
+                    "settings": {
+                        "foreground": "#C8C8C8"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.cdata",
+                    "settings": {
+                        "foreground": "#E9D585"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.delimiter",
+                    "settings": {
+                        "foreground": "#808080"
+                    }
+                },
+                {
+                    "scope": "comment.documentation.name",
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                }
+            ]
+        },
         "textMateRules": [
             {
                 "scope": "comment.documentation",
@@ -94,12 +172,22 @@
         ]
     },
     "editor.useTabStops": false,
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "on",
     "elixirLS.dialyzerEnabled": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
     "explorer.autoReveal": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
     "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "never",
     "gitlens.menus": {
         "editor": {
             "blame": false,
@@ -135,14 +223,15 @@
             "stash": true
         }
     },
-    "go.useLanguageServer": true,
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "python.showStartPage": false,
-    "redhat.telemetry.enabled": true,
-    "window.titleBarStyle": "native",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.enableMenuBarMnemonics": true,
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 1,
+    "workbench.activityBar.visible": false,
     "workbench.colorCustomizations": {
         "editor.background": "#000",
         "editorCursor.foreground": "#f0f",
@@ -151,7 +240,7 @@
         "editorGutter.modifiedBackground": "#0000",
         "sideBar.background": "#000"
     },
-    "workbench.colorTheme": "Hopscotch",
+    "workbench.colorTheme": "Hopscotch Mono",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.editorAssociations": {
@@ -159,6 +248,5 @@
     },
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false
+    "workbench.statusBar.visible": false
 }
