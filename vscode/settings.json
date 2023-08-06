@@ -228,19 +228,20 @@
         "jupyter-notebook": "left"
     },
     "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.gpuAcceleration": "on",
     "window.enableMenuBarMnemonics": true,
     "window.titleBarStyle": "custom",
-    "window.zoomLevel": 1,
-    "workbench.activityBar.visible": false,
     "workbench.colorCustomizations": {
-        "editor.background": "#000",
-        "editorCursor.foreground": "#f0f",
-        "editorGutter.addedBackground": "#0000",
-        "editorGutter.deletedBackground": "#0000",
-        "editorGutter.modifiedBackground": "#0000",
-        "sideBar.background": "#000"
+        // "editor.background": "#000",
+        // "editorCursor.foreground": "#f0f",
+        // "editorGutter.addedBackground": "#0000",
+        // "editorGutter.deletedBackground": "#0000",
+        // "editorGutter.modifiedBackground": "#0000",
+        // "sideBar.background": "#000"
     },
-    "workbench.colorTheme": "Hopscotch Mono",
+    "workbench.colorTheme": "Red",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.editorAssociations": {
@@ -248,5 +249,6 @@
     },
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": false
+    "debug.console.fontSize": 11,
+    "window.zoomLevel": 1
 }
